@@ -29,7 +29,6 @@ a2enmod proxy_balancer
 
 a2enmod lbmethod_byrequests
 
-
 # Copiar archivo de configuracion 
 
 cp ../conf/load-balancer.conf /etc/apache2/sites-available
