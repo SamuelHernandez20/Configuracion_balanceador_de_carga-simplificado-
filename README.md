@@ -96,6 +96,9 @@ Reiniciamos:
 ````
 systemctl restart apache2
 ````
+
+**Tras esto ya se comprueba que funciona el balanceo de carga por HTTP, y tiramos el Let’s Encrypt para que tambien sea por HTTPS**
+
 # 2. Back-end:
 
 `Desde la maquina del backend: deploybackend.sh`
