@@ -116,5 +116,26 @@ mysql -u root <<< "CREATE USER $WORDPRESS_DB_USER@$IP_CLIENTE_MYSQL IDENTIFIED B
 mysql -u root <<< "GRANT ALL PRIVILEGES ON $WORDPRESS_DB_NAME.* TO $WORDPRESS_DB_USER@$IP_CLIENTE_MYSQL"
 ````
 
+`Desde la maquina del backend: install_lamp_backend.sh `
+
+Instalamos el SGBD **MySQL**
+
+````
+apt install mysql-server -y
+````
+Importo las variables del **.env**
+
+````
+source .env
+````
+Para que Mysql tambien acepte conexiones **no solo locales** si no tambien **remotas**, en este caso de **ip privada**: 
+
+````
+sed -i "s/127.0.0.1/$MYSQL_PRIVATE/" /etc/mysql/mysql.conf.d/mysqld.cnf
+````
+
+# reiniciamos servicio
+
+systemctl restart mysql
 
 
