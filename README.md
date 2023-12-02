@@ -96,3 +96,8 @@ Reiniciamos:
 ````
 systemctl restart apache2
 ````
+# 2. Frontend's:
+
+`Desde las maquinas frontales`
+
+
