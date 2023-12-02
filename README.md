@@ -142,6 +142,6 @@ Reiniciamos servicio:
 ````
 systemctl restart mysql
 ````
-# 3. Front-end:
+# 3. Frontales:
 
 Despues de pasaría a ejecutar en los **frontales** los scripts correspondientes al **install_lamp_frontend.sh** y **deployfrontend.sh**
