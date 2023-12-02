@@ -144,4 +144,7 @@ systemctl restart mysql
 ````
 # 3. Frontales:
 
-Despues de pasaría a ejecutar en los **frontales** los scripts correspondientes al **install_lamp_frontend.sh** y **deployfrontend.sh**
+Despues se pasaría a ejecutar en los **frontales** los scripts correspondientes al **install_lamp_frontend.sh** y **deployfrontend.sh**.
+
+En clase se paso a hacer la prueba de crear en **/var/www/html** **2 index.html**, donde en uno ponia un texto en referencia al **frontal 1** y en otro hacia el **frontal 2**,
+teniendo en cuenta borrar ciertas configuraciones del **Wordpress** para hacer la **prueba de balanceo**.
