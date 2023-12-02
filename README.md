@@ -96,7 +96,7 @@ Reiniciamos:
 ````
 systemctl restart apache2
 ````
-# 2. Backend:
+# 2. Back-end:
 
 `Desde la maquina del backend: deploybackend.sh`
 
