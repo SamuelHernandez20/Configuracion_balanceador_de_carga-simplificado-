@@ -15,3 +15,5 @@ La arquitectura de estas máquinas virtuales, se destinarán para los siguientes
 
 Para este caso específico se hara uso de un **balanceador de carga no fisico**, es decir por **software** el cual se encargará de ir balanceando peticiones **cliente-servidor**:
 
+![](images/estructurascripts.png)
+
