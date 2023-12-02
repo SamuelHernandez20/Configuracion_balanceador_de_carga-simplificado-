@@ -14,5 +14,6 @@ La arquitectura de estas máquinas virtuales, se destinarán para los siguientes
 3. Una capa de **back-end**, formada por un servidor **MySQL**.
 
 Para este caso específico se hara uso de un **balanceador de carga no fisico**, es decir por **software** el cual se encargará de ir balanceando peticiones **cliente-servidor**:
+![](Esquema balanceador practica 10.png)
 
 
