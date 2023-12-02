@@ -128,14 +128,15 @@ Importo las variables del **.env**
 ````
 source .env
 ````
-Para que Mysql tambien acepte conexiones **no solo locales** si no tambien **remotas**, en este caso de **ip privada**: 
+Para que Mysql tambien acepte conexiones **no solo locales** si no tambien **remotas**, en este caso de **ip privada**, la cual llevará la dirección del **Back-end** para que escuche a través de esa interfaz: 
 
 ````
 sed -i "s/127.0.0.1/$MYSQL_PRIVATE/" /etc/mysql/mysql.conf.d/mysqld.cnf
 ````
 
-# reiniciamos servicio
+Reiniciamos servicio:
 
+````
 systemctl restart mysql
-
+````
 
